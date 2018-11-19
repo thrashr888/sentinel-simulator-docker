@@ -2,7 +2,9 @@ FROM alpine
 
 ENV SENTINEL_VERSION=0.5.0
 
+WORKDIR /src
+
 RUN wget https://releases.hashicorp.com/sentinel/${SENTINEL_VERSION}/sentinel_${SENTINEL_VERSION}_linux_amd64.zip
 RUN unzip sentinel_${SENTINEL_VERSION}_linux_amd64.zip
 
-ENTRYPOINT ["./sentinel"]
+ENTRYPOINT ["sentinel"]
