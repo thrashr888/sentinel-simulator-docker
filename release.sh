@@ -14,4 +14,4 @@ git add .
 git commit -m"upgrade to $SENTINEL_VERSION"
 git tag ${SENTINEL_VERSION}
 git push
-git push origin ${SENTINEL_VERSION}
+git push -f origin ${SENTINEL_VERSION}
