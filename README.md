@@ -1,6 +1,6 @@
 # sentinel-simulator Docker Container
 ### Usage
-This repository automatically builds containers for using the [`sentinel`](https://www.terraform.io/docs/enterprise/sentinel/index.html) command line program. It contains two distinct varieties of build, a `light` version, which just contains the binary, and a `full` version while compiles the binary from source inside the container before exposing it for use. Which you want will depend on use.
+This repository automatically builds containers for using the [`sentinel`](https://www.terraform.io/docs/enterprise/sentinel/index.html) command line program.
 
 
 ##### `latest` (default)
