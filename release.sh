@@ -4,7 +4,7 @@ if [ -z "$1" ]
 then
   echo "Releases a new version of the Sentinel Docker image."
   echo "Example:"
-  echo "    ./release.sh v0.10.3"
+  echo "    ./release.sh v0.10.4"
   exit 1
 fi
 
@@ -14,4 +14,4 @@ git add .
 git commit -m"upgrade to $SENTINEL_VERSION"
 git tag ${SENTINEL_VERSION}
 git push
-git push -f origin ${SENTINEL_VERSION}
+git push origin ${SENTINEL_VERSION}
