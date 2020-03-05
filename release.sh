@@ -4,7 +4,7 @@ if [ -z "$1" ]
 then
   echo "Releases a new version of the Sentinel Docker image."
   echo "Example:"
-  echo "    ./release.sh v0.14.0"
+  echo "    ./release.sh v0.14.1"
   exit 1
 fi
 
