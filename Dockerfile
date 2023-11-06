@@ -1,6 +1,6 @@
 FROM docker.io/library/debian:10-slim
 
-ENV SENTINEL_VERSION=0.16.1 \
+ENV SENTINEL_VERSION=0.23.1 \
     PATH=/src:$PATH
 
 WORKDIR /src
